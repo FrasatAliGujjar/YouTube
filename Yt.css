@@ -1,0 +1,96 @@
+.side_bar {
+    /* border: 2px solid purple; */
+    border-right: 1px solid gray;
+}
+/* 
+.videos_box {
+    border: 2px solid purple;
+
+} */
+
+/* ============================================ */
+.main {
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.row_css {
+
+    /* border: 2px solid purple; */
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    /* border: 2px solid blue; */
+    height: fit-content;
+}
+
+/* ==========================================  */
+.video_poster {
+    /* border: 2px solid black; */
+    height: 170px;
+}
+
+.VposterCss {
+    width: 110%;
+    height: 100%;
+    margin-left: -15px;
+    border-radius: 10px;
+
+}
+
+
+.video_logo {
+    /* border: 2px solid black; */
+    height: 35px;
+}
+
+.VlogoCss {
+    margin-left: -11px;
+    margin-top: 0px;
+    width: 30px;
+    /* border-radius: 50%; */
+    /* border: 2px solid red; */
+}
+
+
+.video_title {
+    /* border: 2px solid black; */
+    height: 30px;
+    overflow: hidden;
+}
+
+.VtitleCss {
+    font-size: 10px;
+}
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .side_bar {
+        border: 2px solid purple;
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {}
+
+
+
+
+
+
+/* ================================================================  */

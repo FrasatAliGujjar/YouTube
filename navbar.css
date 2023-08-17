@@ -1,0 +1,256 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('bg2.pn');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* =================================================  */
+
+
+
+
+/* ========================   NAV BAR Start   =========================  */
+
+
+
+/* ----------------------------- */
+.navbar-toggler-icon {
+    border: none;
+    border-radius: 4px;
+    color: brown;
+    background-color: white;
+}
+
+.logo {
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+/* main nav bar out div  */
+.navbar {
+    /* border: 2px solid magenta; */
+    /* border-radius: 30px; */
+    height: fit-content;
+    margin-top: 0px;
+    /* background-color: red; */
+}
+
+.nav_bar_main_container {
+
+    /* border: 2px solid white; */
+    border-bottom: 1px solid gray;
+    border-radius: 0px;
+    color: white;
+    background-color: white;
+    height: 50px;
+}
+
+.nav_bar_logo_bar {
+    margin-top: 0px;
+    margin-left: 2px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.nav_bar_title_bar {
+    margin-top: 15px;
+    margin-left: -10px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.list_main {
+    margin-top: 10px;
+    margin-left: 105px;
+    /* border: 2px solid green; */
+    height: fit-content;
+    width: 500px;
+}
+
+.nav-item {
+    height: fit-content;
+    /* border: 2px solid goldenrod; */
+    border-radius: 3px;
+}
+
+/* -------------------------------------  */
+.title {
+    color: cyan;
+    font-size: 30px;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.title:hover {
+    color: white;
+    font-size: 30px;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.home-btn {
+
+    padding: 2px 10px;
+    background-color: white;
+    color: red;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.home-btn:hover {
+    padding: 2px 10px;
+    background-color: red;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+/* ========================   NAV BAR END   =========================  */
+
+
+
+
+
+
+/* ========================   Search Bar   =========================  */
+
+.s_main {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.sbar {
+
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-right: 2px solid black;
+}
+
+.sicon {
+    /* margin-left: -7px; */
+    color: black;
+    cursor: pointer;
+}
+
+.m_icon {
+    padding: 3px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin-left: 10px;
+    color: black;
+}
+
+.up_icon {
+    color: black;
+    margin-right: 20px;
+}
+
+.b_icon {
+    color: black;
+    margin-right: 20px;
+}
+
+.id_logo {
+    margin-top: -2px;
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Mobile NAv Bar  */
+
+/* ========================================== */
+.main_Mnav {
+    /* border: 2px solid red; */
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.sear_box {
+    /* border: 2px solid blue; */
+    width: fit-content;
+    height: fit-content;
+}
+
+.ssbar {
+    border: none;
+    width: 100%;
+}
+
+.Mlogo {
+    /* border: 2px solid purple; */
+    width: 20px;
+    margin-top: -10px;
+}
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (min-width: 1200px) {
+    .main_Mnav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .title {
+        color: cyan;
+        font-size: 15px;
+        font-family: 'Agdasima', sans-serif;
+    }
+
+    .title:hover {
+        color: white;
+        font-size: 15px;
+        font-family: 'Agdasima', sans-serif;
+    }
+
+    .nav_bar_main_container {
+
+        /* border: 2px solid white; */
+        /* border-radius: 20px; */
+        color: white;
+        background-color: white;
+        height: auto;
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main_Mnav {
+        border-bottom: 1px solid black;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {
+
+    .nav_right_main {
+        display: none;
+    }
+
+}
