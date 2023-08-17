@@ -185,8 +185,9 @@ body {
 
 .sear_box {
     /* border: 2px solid blue; */
-    width: fit-content;
+    width: 150px;
     height: fit-content;
+    margin-left: -50px;
 }
 
 .ssbar {
@@ -196,8 +197,8 @@ body {
 
 .Mlogo {
     /* border: 2px solid purple; */
-    width: 20px;
-    margin-top: -10px;
+    height: 45px;
+    margin-top: -12px;
 }
 
 
@@ -213,6 +214,9 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
+    .nav_right_main {
+        display: none;
+    }
     .title {
         color: cyan;
         font-size: 15px;
@@ -240,6 +244,9 @@ body {
     .main_Mnav {
         border-bottom: 1px solid black;
         height: 50px;
+    }
+    .nav_right_main {
+        display: none;
     }
 }
 
